@@ -72,6 +72,8 @@ def recommend(movie):
         print(f"The Similar Movie from '{movie}' is: {data.iloc[value[0]]['title']}")
 ```
 
+![Data Overview](Pictures/image1.png)
+
 Replace `data` with your DataFrame containing movie information and `similarity` with the cosine similarity matrix.
 
 ## Contributing
